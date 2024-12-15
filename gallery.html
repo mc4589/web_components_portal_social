@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+<!--enlaces a los componentes y estilos del header, menú, div principal, footer-->
+    <script src="main.js" defer></script>
+    <script src="gallery.js" defer></script>
+</head>
+<body>
+    <header-component></header-component>
+    <custom-menu></custom-menu>
+<!--etiqueta del componente del div principal-->
+    <main-component>
+        <div slot="main-content">
+
+<!--etiqueta del componente del título-->
+            <title-component>Galería de pokemones</title-component>
+            <gallery-component></gallery-component>
+        </div>
+    </main-component>
+<!--etiqueta del componente del footer-->
+    <footer-component></footer-component>
+</body>
+</html>

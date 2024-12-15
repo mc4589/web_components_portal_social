@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Profile</title>
+<!--enlaces a los estilos y componentes del header, menú, div principal, footer-->
+    <script src="main.js" defer></script>
+    <script src="profile.js" defer></script>
+</head>
+<body>
+<!-- etiqueta del componente del header -->
+    <header-component></header-component>
+    <custom-menu></custom-menu>
+<!-- etiqueta del componente del div principal -->
+    <main-component>
+        <div slot="main-content">
+<!--etiqueta del componente del título-->
+            <title-component>Perfil Social</title-component>
+            <!-- etiqueta del componente del perfil de usuario-->
+            <profile-component>
+                <span slot="nombre">Marco Chacón</span>
+                <span slot="username">Marquito</span>
+                <span slot="descripcion">Estudiante de TI, amante de la tecnología, la ciencia y la naturaleza.</span>
+                <span slot="ubicacion">Quito, Ecuador</span>
+                <span slot="anio">2024</span>
+            </profile-component>
+        </div>
+    </main-component>
+<!--etiqueta del componente del footer--> 
+    <footer-component></footer-component>
+</body>
+</html>

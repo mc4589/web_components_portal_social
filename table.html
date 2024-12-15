@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Registros</title>
+    <!--enlaces a los estilos y componentes del header, menú, div principal, header-->
+    <script src="main.js" defer></script>
+    <script src="table.js" defer></script>
+</head>
+<body>
+    <!--etiqueta del componente del header-->
+    <header-component></header-component>
+    <!-- etiqueta del componente del menú-->
+    <custom-menu></custom-menu>
+    <!--etiqueta del componente del div principal-->
+    <main-component>
+        <div slot="main-content">
+            <!--etiqueta del componente del título-->
+            <title-component>Tabla de Registros</title-component>
+            <!--etiqueta del componente de la tabla-->
+            <custom-table></custom-table>
+        </div>
+    </main-component>
+    <!--etiqueta del componente del footer-->
+    <footer-component></footer-component>
+</body>
+</html>
